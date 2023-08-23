@@ -25,7 +25,6 @@ npx playwright test --ui
 
 ```
 npx playwright show-report
-
 ```
 
 ## Setting Up Percy
@@ -40,7 +39,7 @@ npm install --save-dev @percy/cli @percy/playwright
 
 ### Adding Percy Token
 
-Create new project on the Percy website then PERCY_TOKEN as an environment variable.
+Create new project on the Percy website then set PERCY_TOKEN as an environment variable.
 Windows CMD:
 
 ```
