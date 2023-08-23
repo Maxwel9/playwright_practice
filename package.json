@@ -1,0 +1,23 @@
+{
+  "name": "playwright_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxwel9/playwright_practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxwel9/playwright_practice/issues"
+  },
+  "homepage": "https://github.com/Maxwel9/playwright_practice#readme",
+  "devDependencies": {
+    "@percy/cli": "^1.26.3",
+    "@percy/playwright": "^1.0.4",
+    "@playwright/test": "^1.37.1"
+  }
+}
