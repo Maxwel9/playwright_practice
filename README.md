@@ -13,6 +13,8 @@ git
 
 ```
 npx playwright test
+```
+```
 npx percy exec -- playwright test
 ```
 
