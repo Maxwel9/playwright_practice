@@ -13,6 +13,7 @@ git
 
 ```
 npx playwright test
+npx percy exec -- playwright test
 ```
 
 ### Run tests with UI Mode
