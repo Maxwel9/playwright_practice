@@ -2,43 +2,45 @@
 
 [Playwright Documentation](https://playwright.dev/docs/intro)
 
-## Requirements
+## 1. Requirements
 
 node.js
 git
 
-## Running Tests
+## 2. Running Tests
 
-### Run tests in headless mode
+### 2.1. Run tests in headless mode
 
 ```
 npx playwright test
+```
+```
 npx percy exec -- playwright test
 ```
 
-### Run tests with UI Mode
+### 2.2. Run tests with UI Mode
 
 ```
 npx playwright test --ui
 ```
 
-### Running a HTML Reporter
+### 2.3. Running a HTML Reporter
 
 ```
 npx playwright show-report
 ```
 
-## Setting Up Percy
+## 3. Setting Up Percy
 
 [Documentation](https://docs.percy.io/docs/playwright)
 
-### Install Percy
+### 3.1. Install Percy
 
 ```
 npm install --save-dev @percy/cli @percy/playwright
 ```
 
-### Adding Percy Token
+### 3.2. Adding Percy Token
 
 Create new project on the Percy website then set PERCY_TOKEN as an environment variable.
 Windows CMD:
