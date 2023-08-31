@@ -1,10 +1,10 @@
 import { test } from '@playwright/test';
 const percySnapshot = require('@percy/playwright');
 
-import { STRAUMANN } from '../utils/pages.spec';
+import { Straumann } from '../utils/pages.spec';
 
 test('Home page should look ok', async ({ page }) => {
-  await page.goto(STRAUMANN.COM_EN);
+  await page.goto(Straumann.home);
 
   // Take a percy snapshot.
   await percySnapshot(page, '[PlayWright] Straumann Home Page');

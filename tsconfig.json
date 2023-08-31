@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    // https://stackoverflow.com/questions/53157373/how-to-enable-ts-check-in-es6
+    "checkJs": true,
+  },
+}
