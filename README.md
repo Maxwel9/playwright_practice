@@ -39,6 +39,14 @@ Pick locator – allows to pick the right locator.
 
 Recorder at cursor – it allows us to record in a specific place in our test.
 
+### 2.5. Running Codegen
+```
+npx playwright codegen
+```
+```
+npx playwright codegen URL
+```
+
 ## 3. Setting Up Percy
 
 [Documentation](https://docs.percy.io/docs/playwright)
