@@ -30,6 +30,13 @@ npx playwright test --ui
 npx playwright show-report
 ```
 
+### 2.4. Running tests via VS Code Marketplace
+The extension is available on the VS Code Marketplace.
+
+Record new – generating tests, recording user actions. Press the cancel button to stop the recording.
+Pick locator – allows to pick the right locator.
+Recorder at cursor – it allows us to record in a specific place in our test.
+
 ## 3. Setting Up Percy
 
 [Documentation](https://docs.percy.io/docs/playwright)
